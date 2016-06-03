@@ -2,5 +2,7 @@ plugins:
   hapi-method-loader:
     _enabled: false
   hapi-slack:
+    tags:
+      - 'docker-hub'
     slackHook: '{{ENV.SLACK_HOOK}}'
     channel: '{{ENV.SLACK_CHANNEL}}'
