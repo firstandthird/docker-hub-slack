@@ -1,7 +1,15 @@
 'use strict';
+exports.home = {
+  path: '/',
+  method: 'GET',
+  handler(request, reply) {
+    reply('docker-hub-slack running');
+  }
+};
+
 exports.hub = {
   path: '/',
-  method: '*',
+  method: 'POST',
   handler(request, reply) {
     const server = request.server;
 
