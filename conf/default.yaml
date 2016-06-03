@@ -1,0 +1,6 @@
+plugins:
+  hapi-method-loader:
+    _enabled: false
+  hapi-slack:
+    slackHook: '{{ENV.SLACK_HOOK}}'
+    channel: '{{ENV.SLACK_CHANNEL}}'

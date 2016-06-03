@@ -1,0 +1,14 @@
+{
+  "name": "docker-hub-slack",
+  "version": "0.0.1",
+  "description": "Listen for docker hub hooks and send them to slack",
+  "scripts": {
+    "start": "rapptor"
+  },
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "rapptor": "firstandthird/rapptor#c686c8a",
+    "hapi-slack": "0.1.0"
+  }
+}
