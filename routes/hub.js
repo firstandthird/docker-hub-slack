@@ -19,7 +19,10 @@ exports.hub = {
     const url = payload.repository.repo_url;
     const image = `${repo}:${tag}`;
 
-    server.log(['success', 'docker-hub', image], `${image} has been pushed. ${url}`);
+    server.log(['success', 'docker-hub', image], {
+      message: `${image} has been pushed.`,
+      url
+    });
 
     reply('ok');
   }
