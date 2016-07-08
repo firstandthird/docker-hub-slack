@@ -1,6 +1,6 @@
 {
   "name": "docker-hub-slack",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Listen for docker hub hooks and send them to slack",
   "scripts": {
     "start": "rapptor"
