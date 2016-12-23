@@ -8,7 +8,7 @@
   "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
   "license": "MIT",
   "dependencies": {
-    "rapptor": "1.1.0",
+    "rapptor": "1.3.2",
     "hapi-slack": "0.2.1"
   }
 }
